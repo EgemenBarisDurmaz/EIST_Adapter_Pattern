@@ -14,7 +14,6 @@ public final class TemperatureCurve {
 		//ThermoInterface thermo = new CelsiusThermo();
 		ThermoAdapter thermo = new ThermoAdapter();
 
-
 		DecimalFormat df = new DecimalFormat("#.#");
 
 		for (int i = 0; i < TEMPERATURE_SAMPLES; i++) {
